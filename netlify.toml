@@ -1,0 +1,5 @@
+[build]
+  command = "python3 build.py"
+  publish = "dist"
+
+# Real HTML pages preserve independent routes; no SPA catch-all redirect.

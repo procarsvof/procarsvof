@@ -1,0 +1,11 @@
+# Validatie
+
+- Alle 48 interne footerpaden uit de aangeleverde AutoZoWeg-HTML bestaan en staan in de VerkoopJouwBus-footer.
+- 69 HTML-routes gecontroleerd op HTTP 200, H1, titel en interne pagina-/assetlinks.
+- Browser: dropdownnavigatie, mobiel menu, Escape en FAQ-uitklappen werken.
+- Browser: kentekenoverdracht naar aanmelden werkt; RDW-UI gecontroleerd met gesimuleerde voertuig-, lege en foutantwoorden. Geen echte RDW-aanvraag bevestigd.
+- Vier rekentools getest met berekende scenario's: reparatieverschil €700, gemiddelde jaarafschrijving €3.000, particulier/inkoper €120 en schorsingsverschil €720.
+- Formuliervalidatie en vooraf invullen na RDW-resultaat gecontroleerd. Geen live formulierinzending uitgevoerd.
+- Homepage zonder horizontale overflow bij 1440, 768, 390 en 320 pixels. Geen browser-JavaScriptfouten tijdens de controles.
+- Desktop- en mobielpreviews opgenomen. Geen publieke deployment uitgevoerd.
+- De originele RDW-code /assets/index-DRisOsjy.js ontbreekt nog; de voorlopige adapter is geen exact behoud van de oorspronkelijke integratie.
