@@ -1,12 +1,12 @@
 # VerkoopJouwBus
 
-Blauw-witte bedrijfsbuswebsite met donkere blauwgrijze secties, kentekenformulier en gradient-effects op een lokale bestelbusillustratie. Naam: VerkoopJouwBus. De aangeleverde homepage-HTML en AutoZoWeg HTML/CSS zijn als referenties gebruikt. De interne AutoZoWeg-footerpaden blijven bereikbaar; de teksten zijn aangepast voor bedrijfsbussen. Contactgegevens komen uitsluitend uit de VerkoopJouwBus-HTML.
+Blauw-witte bedrijfsbuswebsite met donkere blauwgrijze secties, kentekenformulier en gradient-effects op een lokaal opgeslagen gegenereerde busfoto. Naam: VerkoopJouwBus. De aangeleverde homepage-HTML en AutoZoWeg HTML/CSS zijn als referenties gebruikt. De interne AutoZoWeg-footerpaden blijven bereikbaar; de teksten zijn aangepast voor bedrijfsbussen. Contactgegevens komen uitsluitend uit de VerkoopJouwBus-HTML.
 
 ## Download en Netlify
 
 Download de kant-en-klare ZIP via [VerkoopJouwBus.zip](https://github.com/procarsvof/procarsvof/raw/refs/heads/main/downloads/VerkoopJouwBus.zip), of gebruik GitHub **Code → Download ZIP** voor de volledige repository. Pak uit en upload uitsluitend de map `dist` naar Netlify Drop. Voor automatisch bouwen: koppel deze repository aan Netlify; `netlify.toml` bevat het bouwcommando en de publicatiemap.
 
-Bekijk [desktoppreview](previews/verkoopjouwbus-desktop.png) en [mobielpreview](previews/verkoopjouwbus-mobiel.png). De oorspronkelijke RDW-integratie is nog niet exact aangesloten; zie hieronder.
+Bekijk [desktoppreview](previews/verkoopjouwbus-desktop.png) en [mobielpreview](previews/verkoopjouwbus-mobiel.png). De originele RDW-opvraagfuncties zijn nu aangesloten; zie hieronder.
 
 ## Bouwen en bekijken
 
@@ -21,11 +21,15 @@ Alleen Python 3 nodig, geen npm-dependencies. `dist` bevat de complete publiceer
 
 Importeer de bronnen met netlify.toml of upload de inhoud van dist via Netlify Drop. Schakel formulierdetectie in en deploy opnieuw. Configureer notificaties voor bus-aanvraag en dealer-interesse. Test echte inzendingen op de gepubliceerde site. De lokale Python-server verwerkt geen POST-aanvragen. Netlify-publicatie en formulierbezorging zijn hier niet getest; er is geen CRM of automatische taxatiebackend.
 
-## RDW: oorspronkelijke integratie nog nodig
+## RDW: originele opvraaglogica hergebruikt
 
-De HTML verwijst naar /assets/index-DRisOsjy.js maar dat JavaScript is niet meegeleverd. De originele RDW-koppeling is daardoor niet exact behouden of gecontroleerd. Live downloads zijn geblokkeerd door het netwerkbeleid. Lever dit oorspronkelijke bestand aan om de bestaande koppeling opnieuw aan te sluiten.
+Het oorspronkelijke JavaScript index-DRisOsjy.js kon nu via HTTPS worden opgehaald. De kentekenformattering, timeout, voertuig- en brandstofopvraag en normalisatie zijn ongewijzigd geëxtraheerd naar assets/rdw-original.js. assets/tools.js verbindt die functies met de nieuwe HTML-interface. Beide oorspronkelijke RDW-datasets (m9d7-ebf2 en 8ys7-d773) blijven gebruikt. Geen nieuwe taxatiebackend toegevoegd.
 
-assets/tools.js bevat voorlopig een zelfstandige adapter naar de openbare RDW-voertuigdataset m9d7-ebf2. Bij beschikbare gegevens toont hij merk, model, voertuigsoort, eerste toelating, APK-vervaldatum en tellerstandoordeel en vult hij aanvraagvelden vooraf in. Dit is geen automatische taxatie. UI-tests met gecontroleerde RDW-antwoorden zijn uitgevoerd; een echte RDW-aanvraag is niet geverifieerd. Deze voorlopige adapter mag niet worden beschreven als de oorspronkelijke integratie.
+De homepage kan direct voertuiggegevens tonen, waarna merk, model, bouwjaar, APK, brandstof en inrichting in de aanvraag worden ingevuld. UI-tests met gecontroleerde antwoorden van beide datasets zijn uitgevoerd. Live RDW-beschikbaarheid en formulierbezorging zijn nog niet geverifieerd.
+
+## Layout en fonts
+
+Nieuwe witte homepage met rechts een fading hero-image, links een gestapeld kentekenformulier, eenvoudige navigatie, vertrouwensbalk, driestappenproces, voordelen, waardefactoren en FAQ. Blauw #2563eb, wit en slate #0f172a blijven behouden. Inter 400/500/600/700/800 is lokaal gebundeld vanuit @fontsource/inter 5.3.0; pakketintegriteit gecontroleerd met SHA-512. Licentie: assets/fonts/LICENSE.txt. Geen externe fontrequests. De hero is een nieuw gegenereerde foto, geen afbeelding van een werkelijk aangeboden voertuig.
 
 ## Routes en hulpmiddelen
 
@@ -35,12 +39,12 @@ Vier lokale rekentools vergelijken repareren/verkopen, schorsingskosten, particu
 
 ## Voor publicatie
 
-- Sluit het ontbrekende oorspronkelijke RDW-JavaScript aan en test echte aanvragen.
+- Test echte RDW-antwoorden en de formulierbezorging op de gepubliceerde website.
 - Vul juridische bedrijfsidentiteit, contactgegevens, grondslag, bewaartermijnen, privacyverklaring en voorwaarden in. Juridische pagina's zijn niet-geïndexeerde concepten.
 - Configureer en test Netlify Forms-bezorging en spamfilter.
 - Controleer de overgenomen contactgegevens en werkelijke verkoopprocedure.
 - Bij een ander domein: pas ORIGIN in build.py aan en bouw opnieuw voor canonicals, structured data en sitemap.
-- De originele externe foto was niet downloadbaar. Lever het fotobestand aan om dezelfde fotografie te gebruiken; nu is een lokale illustratie met gradient gebruikt.
+- De externe oorspronkelijke foto is vervangen door een nieuw gegenereerde busfoto met gradient.
 
 ## SEO
 

@@ -8,4 +8,6 @@
 - Formuliervalidatie en vooraf invullen na RDW-resultaat gecontroleerd. Geen live formulierinzending uitgevoerd.
 - Homepage zonder horizontale overflow bij 1440, 768, 390 en 320 pixels. Geen browser-JavaScriptfouten tijdens de controles.
 - Desktop- en mobielpreviews opgenomen. Geen publieke deployment uitgevoerd.
-- De originele RDW-code /assets/index-DRisOsjy.js ontbreekt nog; de voorlopige adapter is geen exact behoud van de oorspronkelijke integratie.
+- Update: originele RDW-opvraagfuncties uit index-DRisOsjy.js zijn nu ongewijzigd geëxtraheerd en aangesloten. Voertuig- en brandstofresponses en invullen van het aanvraagformulier zijn gecontroleerd met testantwoorden.
+- Nieuw ontwerp: 69 routes geven HTTP 200; lokale Inter-fonts en hero WebP laden. Geen overflow bij 1440/768/390/320 pixels. Menu, FAQ, calculator en RDW-invullen gecontroleerd; geen JavaScriptfouten.
+- Nieuw gegenereerd beeld en desktop-/mobielscreenshots opgenomen.
