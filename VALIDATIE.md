@@ -15,3 +15,7 @@
 ## Creatieve stijlupdate
 
 Eigen compositie en teksten met behoud van Inter en het blauwe kleurenschema. Alle 69 routes opnieuw gecontroleerd. RDW-voertuig- en brandstofverwerking met testantwoorden, vooraf invullen, menu, FAQ en calculator geslaagd. Geen horizontale overflow bij 1440/768/390/320 pixels en geen JavaScriptfouten. Live RDW en formulierbezorging zijn hiermee niet opnieuw gevalideerd.
+
+## Interactieve update
+
+Alle 69 routes en bestaande controles opnieuw geslaagd. Getest: situatiekeuze met toetsenbord, bijpassend advies en vervolglink, doorgeven aan aanvraag/contact, zoeken/resetten/lege resultaten in FAQ, mobiele aanvraagknop, geen overflow bij 768/390/320 pixels, fallback zonder JavaScript en geen browserfouten. RDW getest met gecontroleerde voertuig- en brandstofantwoorden; live formulierbezorging niet getest.

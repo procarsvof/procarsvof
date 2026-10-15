@@ -31,6 +31,15 @@ De homepage kan direct voertuiggegevens tonen, waarna merk, model, bouwjaar, APK
 
 Eigen VerkoopJouwBus-compositie met een asymmetrisch afgerond beeldvlak, subtiele blauwe gradients, een kentekenkaart, kaarten per verkoopsituatie, een driestappenproces met blauw accent, een donkerblauwe voordelen-sectie en een FAQ in twee kolommen. De referenties dienen als functionele basis; het ontwerp heeft een eigen uitwerking. Blauw #2563eb, wit en slate #0f172a blijven behouden. Inter 400/500/600/700/800 is lokaal gebundeld vanuit @fontsource/inter 5.3.0; pakketintegriteit gecontroleerd met SHA-512. Licentie: assets/fonts/LICENSE.txt. Geen externe fontrequests. De hero is een nieuw gegenereerde foto, geen afbeelding van een werkelijk aangeboden voertuig.
 
+## Interactieve VerkoopJouwBus-ervaring
+
+- Kies uw verkoopsituatie: voorbereiding en vervolglink passen zich aan; de keuze wordt zichtbaar meegenomen naar het aanvraagformulier (ook op de contactpagina).
+- Doorzoek FAQ-antwoorden en wis de zoekopdracht. Een lege zoekuitkomst geeft uitleg.
+- Op mobiel verschijnt een compacte aanvraagknop wanneer hero, formulier en footer buiten beeld zijn.
+- Alleen de verkoopsituatie wordt in sessionStorage bewaard; deze interacties slaan geen contactgegevens op. De kentekencheck behoudt zijn bestaande voertuigopslag.
+- Radioselectie en FAQ werken met toetsenbord. Met JavaScript uit blijven gewone informatie-links en native FAQ-accordions beschikbaar. Reduced-motion wordt gerespecteerd.
+- Het formulier bevat nu het veld verkoop-situatie. Controleer na Netlify-deploy dat formulierdetectie de bijgewerkte velden verwerkt.
+
 ## Routes en hulpmiddelen
 
 Alle interne footerpaden uit het aangeleverde AutoZoWeg-bestand zijn bereikbaar, inclusief merk-, stad-, situatie-, data- en dealerpagina's. De drie advieslinks uit de homepage zijn toegevoegd. Extra VerkoopJouwBus-routes blijven beschikbaar. Pagina's met overeenkomstige inhoud gebruiken canonicals en staan niet dubbel in de XML-sitemap.
