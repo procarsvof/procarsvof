@@ -29,7 +29,7 @@ De homepage kan direct voertuiggegevens tonen, waarna merk, model, bouwjaar, APK
 
 ## Layout en fonts
 
-Nieuwe witte homepage met rechts een fading hero-image, links een gestapeld kentekenformulier, eenvoudige navigatie, vertrouwensbalk, driestappenproces, voordelen, waardefactoren en FAQ. Blauw #2563eb, wit en slate #0f172a blijven behouden. Inter 400/500/600/700/800 is lokaal gebundeld vanuit @fontsource/inter 5.3.0; pakketintegriteit gecontroleerd met SHA-512. Licentie: assets/fonts/LICENSE.txt. Geen externe fontrequests. De hero is een nieuw gegenereerde foto, geen afbeelding van een werkelijk aangeboden voertuig.
+Eigen VerkoopJouwBus-compositie met een asymmetrisch afgerond beeldvlak, subtiele blauwe gradients, een kentekenkaart, kaarten per verkoopsituatie, een driestappenproces met blauw accent, een donkerblauwe voordelen-sectie en een FAQ in twee kolommen. De referenties dienen als functionele basis; het ontwerp heeft een eigen uitwerking. Blauw #2563eb, wit en slate #0f172a blijven behouden. Inter 400/500/600/700/800 is lokaal gebundeld vanuit @fontsource/inter 5.3.0; pakketintegriteit gecontroleerd met SHA-512. Licentie: assets/fonts/LICENSE.txt. Geen externe fontrequests. De hero is een nieuw gegenereerde foto, geen afbeelding van een werkelijk aangeboden voertuig.
 
 ## Routes en hulpmiddelen
 

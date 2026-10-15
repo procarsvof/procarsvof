@@ -11,3 +11,7 @@
 - Update: originele RDW-opvraagfuncties uit index-DRisOsjy.js zijn nu ongewijzigd geëxtraheerd en aangesloten. Voertuig- en brandstofresponses en invullen van het aanvraagformulier zijn gecontroleerd met testantwoorden.
 - Nieuw ontwerp: 69 routes geven HTTP 200; lokale Inter-fonts en hero WebP laden. Geen overflow bij 1440/768/390/320 pixels. Menu, FAQ, calculator en RDW-invullen gecontroleerd; geen JavaScriptfouten.
 - Nieuw gegenereerd beeld en desktop-/mobielscreenshots opgenomen.
+
+## Creatieve stijlupdate
+
+Eigen compositie en teksten met behoud van Inter en het blauwe kleurenschema. Alle 69 routes opnieuw gecontroleerd. RDW-voertuig- en brandstofverwerking met testantwoorden, vooraf invullen, menu, FAQ en calculator geslaagd. Geen horizontale overflow bij 1440/768/390/320 pixels en geen JavaScriptfouten. Live RDW en formulierbezorging zijn hiermee niet opnieuw gevalideerd.
