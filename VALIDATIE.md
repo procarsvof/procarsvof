@@ -19,3 +19,7 @@ Eigen compositie en teksten met behoud van Inter en het blauwe kleurenschema. Al
 ## Interactieve update
 
 Alle 69 routes en bestaande controles opnieuw geslaagd. Getest: situatiekeuze met toetsenbord, bijpassend advies en vervolglink, doorgeven aan aanvraag/contact, zoeken/resetten/lege resultaten in FAQ, mobiele aanvraagknop, geen overflow bij 768/390/320 pixels, fallback zonder JavaScript en geen browserfouten. RDW getest met gecontroleerde voertuig- en brandstofantwoorden; live formulierbezorging niet getest.
+
+## Kenteken als eerste inhoud
+
+Op 1440×1000, 768×900, 390×844 en 320×568 gecontroleerd: formulier direct onder navigatie, invoer en knop zichtbaar zonder scrollen, tekst na formulier en afbeelding na tekst. Alle 69 routes en de bestaande RDW-/formulier-, FAQ-, situatiekeuze- en mobiele controles zijn opnieuw geslaagd.

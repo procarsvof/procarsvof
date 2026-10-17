@@ -27,6 +27,10 @@ Het oorspronkelijke JavaScript index-DRisOsjy.js kon nu via HTTPS worden opgehaa
 
 De homepage kan direct voertuiggegevens tonen, waarna merk, model, bouwjaar, APK, brandstof en inrichting in de aanvraag worden ingevuld. UI-tests met gecontroleerde antwoorden van beide datasets zijn uitgevoerd. Live RDW-beschikbaarheid en formulierbezorging zijn nog niet geverifieerd.
 
+## Eerste indruk: kenteken eerst
+
+Direct onder de navigatie staat de kentekenbox met de knop Bekijk mijn bus. Daarna volgen de introductietekst en vervolgens de afbeelding. Dit is zowel de HTML-volgorde als de zichtbare volgorde op desktop, tablet en mobiel. Invoer en knop passen zonder scrollen in een scherm van 320×568 pixels. De RDW-koppeling, handmatige aanvraag en situatiekiezer zijn behouden.
+
 ## Layout en fonts
 
 Eigen VerkoopJouwBus-compositie met een asymmetrisch afgerond beeldvlak, subtiele blauwe gradients, een kentekenkaart, kaarten per verkoopsituatie, een driestappenproces met blauw accent, een donkerblauwe voordelen-sectie en een FAQ in twee kolommen. De referenties dienen als functionele basis; het ontwerp heeft een eigen uitwerking. Blauw #2563eb, wit en slate #0f172a blijven behouden. Inter 400/500/600/700/800 is lokaal gebundeld vanuit @fontsource/inter 5.3.0; pakketintegriteit gecontroleerd met SHA-512. Licentie: assets/fonts/LICENSE.txt. Geen externe fontrequests. De hero is een nieuw gegenereerde foto, geen afbeelding van een werkelijk aangeboden voertuig.
