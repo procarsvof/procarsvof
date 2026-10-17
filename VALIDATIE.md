@@ -23,3 +23,7 @@ Alle 69 routes en bestaande controles opnieuw geslaagd. Getest: situatiekeuze me
 ## Kenteken als eerste inhoud
 
 Op 1440×1000, 768×900, 390×844 en 320×568 gecontroleerd: formulier direct onder navigatie, invoer en knop zichtbaar zonder scrollen, tekst na formulier en afbeelding na tekst. Alle 69 routes en de bestaande RDW-/formulier-, FAQ-, situatiekeuze- en mobiele controles zijn opnieuw geslaagd.
+
+## Nieuw mobiel screenshot als referentie
+
+Nieuwste mobiele volgorde vervangt de eerdere mobiele kenteken-eerst-indeling: foto → tekst → kentekenbox. Gecontroleerd op 768/390/320 pixels; desktop 1440px behoudt kentekenprioriteit. Geen horizontale overflow. Alle 69 routes, originele RDW met testantwoorden, formulierinvullen, situatiekeuze, FAQ en mobiele aanvraagknop opnieuw gecontroleerd.

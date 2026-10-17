@@ -27,9 +27,9 @@ Het oorspronkelijke JavaScript index-DRisOsjy.js kon nu via HTTPS worden opgehaa
 
 De homepage kan direct voertuiggegevens tonen, waarna merk, model, bouwjaar, APK, brandstof en inrichting in de aanvraag worden ingevuld. UI-tests met gecontroleerde antwoorden van beide datasets zijn uitgevoerd. Live RDW-beschikbaarheid en formulierbezorging zijn nog niet geverifieerd.
 
-## Eerste indruk: kenteken eerst
+## Homepage volgens het mobiele voorbeeld
 
-Direct onder de navigatie staat de kentekenbox met de knop Bekijk mijn bus. Daarna volgen de introductietekst en vervolgens de afbeelding. Dit is zowel de HTML-volgorde als de zichtbare volgorde op desktop, tablet en mobiel. Invoer en knop passen zonder scrollen in een scherm van 320×568 pixels. De RDW-koppeling, handmatige aanvraag en situatiekiezer zijn behouden.
+Op mobiel en tablet (tot 800px) komt eerst de afgeronde busfoto direct onder het menu, daarna de gecentreerde introductie met de kop op drie regels, en daarna de kentekenbox. Dit volgt de nieuwste aangeleverde screenshot, zonder de groene annotaties. Op desktop blijft het kentekenformulier de eerste zichtbare inhoud. De RDW-opvraaglogica, situatiekeuze en aanvraagverwerking zijn behouden.
 
 ## Layout en fonts
 
